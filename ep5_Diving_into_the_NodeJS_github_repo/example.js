@@ -78,3 +78,7 @@ as parameters to the wrapper function.
 //    Node.js caches it after the first execution.
 //    Future `require` calls return the cached exports,
 //    preventing redundant executions.
+
+
+// https://github.com/nodejs/node/blob/main/lib/internal/modules/helpers.js
+// This link provides insight into the require function's implementation (function name is makeRequireFunction)
