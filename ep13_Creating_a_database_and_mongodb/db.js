@@ -2,7 +2,7 @@ const { MongoClient } = require("mongodb");
 
 // ✅ Use your real password here — make sure it's URL encoded if it contains special characters
 const uri =
-  "mongodb+srv://vigneshwarancj:qbS2AuhH4fFKW35G@namastenodejs.kapulxi.mongodb.net/?retryWrites=true&w=majority&appName=NamasteNodeJS";
+  "mongodb+srv://<username>:<password>@cluster0.mongodb.net/?retryWrites=true&w=majority";
 
 // Create a new MongoClient instance
 const client = new MongoClient(uri);
